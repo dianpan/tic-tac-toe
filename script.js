@@ -22,7 +22,6 @@ $(document).ready(function(){
     }
   });
 
-
   function winnerCheck(){
     var space1 = $("#board tr:nth-child(1) td:nth-child(1)").text();
     var space2 = $("#board tr:nth-child(1) td:nth-child(2)").text();
@@ -49,7 +48,7 @@ $(document).ready(function(){
   }
 
   $('#replay').click(function() {
-      location.reload();
+    location.reload();
   });
 
 });
