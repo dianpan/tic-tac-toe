@@ -3,7 +3,7 @@ $(document).ready(function(){
   var play = true;
 
   $("#board tr td").click(function(){
-    if($(this).text() == "" && play) {
+    if($(this).text() === "" && play) {
       if((move % 2) === 1) {
         $(this).append("X");
       } else {
@@ -11,7 +11,7 @@ $(document).ready(function(){
       }
       move++;
 
-      if(winnerCheck() != -1 && winnerCheck() !="") {
+      if(winnerCheck() !== -1 && winnerCheck() !== "") {
         if(winnerCheck() === "X"){
           alert("Player 1 wins!");
         } else {
