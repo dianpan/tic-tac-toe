@@ -1,2 +1,2 @@
 # tic-tac-toe
-my first stab at creating a tic-tac-toe game using JS.
+A tic-tac-toe game played in the browser.  Written in JS.
