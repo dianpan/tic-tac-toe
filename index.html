@@ -1,51 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Tic-Tac-Toe</title>
-  <link type = "text/css" rel="stylesheet" href="style.css" />
-  <script src = "http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-  <script src = "script.js" charset="utf-8"></script>
-</head>
+  <head>
+    <title>Tic-Tac-Toe</title>
+    <link type = "text/css" rel="stylesheet" href="style.css" />
+    <script src = "http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src = "script.js" charset="utf-8"></script>
+  </head>
 
-<body>
-<div class=".text">
-  <h1>Tic-Tac-Toe</h1>
-  <p>three in a row...</p>
-</div>
+  <body>
+  <div class=".text">
+    <h1>Tic-Tac-Toe</h1>
+    <p>three in a row...</p>
+  </div>
 
-<!--9x9 board: html table with three rows, each row contains three cells-->
-<table id='board'>
-<tr>
-  <td></td>
-  <td></td>
-  <td></td>
-</tr>
-
-<tr>
+  <!--9x9 board: html table with three rows, each row contains three cells-->
+  <table id='board'>
+  <tr>
     <td></td>
     <td></td>
     <td></td>
-</tr>
+  </tr>
 
-<tr>
+  <tr>
     <td></td>
     <td></td>
     <td></td>
-</tr>
-</table>
+  </tr>
 
-<br><br>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  </table>
 
-<!--create reset functionality & button-->
-<div class=".text">
-  <p>[Play Again]</p>
-</div>
+  <br><br>
 
-<!--create instructions that dynamically appear on page-->
-<!--game logic so that computer never loses-->
-<!--display hints for user-->
+  <div id="replay">
+    <button>Play Again</button>
+  </div>
 
-
-</body>
+  </body>
 </html>
 
